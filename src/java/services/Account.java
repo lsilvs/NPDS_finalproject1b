@@ -86,5 +86,12 @@ class Account implements java.io.Serializable {
           kamaradInternational100 = amount;
     }
     
-    
+    @Override
+    public String toString() {
+       return "{\"Account\": { \"_number\":\"" + _number + "\", \"_balance\":\"" + _balance + 
+                            "\", \"kamaradTalkKamarad100\":\"" + kamaradTalkKamarad100 + "\", \"kamaradTalkKamarad500\":\"" + kamaradTalkKamarad500 + 
+                            "\", \"kamaradTalkEveryone100\":\"" + kamaradTalkEveryone100 + "\", \"kamaradTalkEveryone500\":\"" + kamaradTalkEveryone500 + 
+                            "\", \"kamaradInternet1GB\":\"" + kamaradInternet1GB + "\", \"kamardText300\":\"" + kamardText300 + 
+                            "\", \"kamaradInternational100\":\"" + kamaradInternational100 + "\" } }";
+    }
 }
